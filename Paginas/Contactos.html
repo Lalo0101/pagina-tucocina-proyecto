@@ -1,0 +1,249 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1-0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Tu cocina </title>
+        <link rel="shortcut icon" href="../Imagen/5dfb70fe26266074c99911272330eb03.jpg" type="imagen/x-icon">
+        <link rel="stylesheet" href="../estilos.css">
+        <style>
+            body{
+    height: 100%; 
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #ab4493; 
+  }
+  
+  
+  .contact_form{  
+    width: 460px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+  }
+  
+  
+  input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  
+  
+  textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+  
+  
+  label{
+    display: block; 
+    float: center;  
+  }
+  
+  
+  button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: #ab4493; 
+    border-color: #ab4493; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 420px;   
+    cursor: pointer;
+  }
+  
+  
+  button p{
+    color: #fff; 
+  }
+  
+  
+  span{
+    color: #ab4493; 
+  }
+  
+  
+  .aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+  }
+  
+  
+  h3{
+    font-size: 39px;  
+    text-align: letf; 
+    padding-bottom: 20px; 
+    color: #ab4493;
+  }
+  
+  
+  h4{
+    font-size: 16px; 
+    padding-bottom: 30px;
+    color: #0e0e0e;   
+  }
+  
+  
+  p{
+    font-size: 14px; 
+    color: #0e0e0e; 
+  }
+  
+  
+  ::-webkit-input-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  ::-webkit-textarea-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  .formulario input:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+  
+  
+  .formulario textarea:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+   .mapa{
+       text-align: center;
+   }
+
+   h5{
+       
+       text-align: center;
+       color: white;
+       text-decoration: underline;
+       font-size: 20px;
+
+   }
+   h6{
+      
+       text-align: center;
+       color: white;
+       text-decoration: underline;
+       font-size: 15px;
+   }
+
+        </style>
+    </head>
+    <body>
+       <header>
+                <nav>
+                    <a href="../index.html">Inicio</a>
+                    <a href="Registrate.html">Registrate</a>
+                    <a href="Inicia_sesion.html">Inicia sesión</a>
+                    <a href="Acerca_de.html">Acerca de</a>
+                    <a href="">Contactos</a>
+                </nav>
+                <section class="textos-header">
+                    <h1>Contactanos</h1>
+                    <h2>Averigua como ponerte en contaco con nosotros</h2>
+                </section>
+                <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C253.67,149.50 253.10,-1.47 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #ffff;"></path></svg></div>
+        </header>
+    </body>
+    <body> 
+        <div class="contact_form">
+    
+                <div class="formulario">      
+                  <h3>Formulario de contacto</h3>
+                    <h4>Escríbenos y en breve los pondremos en contacto contigo</h4>
+            
+            
+                      <form action="submeter-formulario.php" method="post">       
+            
+                        
+                            <p>
+                              <label for="nombre" class="colocar_nombre">Nombre
+                                <span class="obligatorio">*</span>
+                              </label>
+                                <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                            </p>
+                          
+                            <p>
+                              <label for="email" class="colocar_email">Email
+                                <span class="obligatorio">*</span>
+                              </label>
+                                <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                            </p>
+                        
+                            <p>
+                              <label for="telefone" class="colocar_telefono">Teléfono
+                              </label>
+                                <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                            </p>    
+                          
+                            <p>
+                              <label for="website" class="colocar_website">Sitio web
+                              </label>
+                                <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+                            </p>    
+                          
+                            <p>
+                              <label for="asunto" class="colocar_asunto">Asunto
+                                <span class="obligatorio">*</span>
+                              </label>
+                                <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                            </p>    
+                          
+                            <p>
+                              <label for="mensaje" class="colocar_mensaje">Mensaje
+                                <span class="obligatorio">*</span>
+                              </label>                     
+                                                <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                            </p>                    
+                            <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+                            <p class="aviso">
+                              <span class="obligatorio"> * </span>los campos son obligatorios.
+                            </p>                          
+                      </form>
+                </div>  
+              </div>
+                <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3757.7091194757154!2d-99.31875912801125!3d19.63972978086871!2m3!1f0!2f0!
+                            3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d2190b981dce25%3A0x369f3dcae9237a9f!2sDeposito%20Oasis%20Dulceria%20Famy!5e0!3m2!1ses
+                            !2smx!4v1639711319075!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
+                </div>
+                    <div class="Datos">
+                        <h5>
+                            Nos localizamos en la calle venusstiano carranza #5 entre las calles Mariano Escobedo 
+                            y Lopez Mateos entre la avenida Lazaro Cardenas y Via corta Morelia.
+                        </h5>
+                        <h6>
+                            Nuestro numero para localizarnos es 5626839163
+                        </h6>
+
+
+                    </div>
+        </body>
+</html>
